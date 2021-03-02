@@ -24,7 +24,6 @@
   max-width: 1250px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -38,12 +37,12 @@
   font-family: poppins;
   font-weight: bold;
   color: rgb(245, 46, 168) !important;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: white;
 }
 
 .projects {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 nav {
@@ -98,7 +97,7 @@ nav {
 .dtext {
   position: relative;
   top: 23px;
-  left: 5px;
+  left: 4px;
   font-family: poppins;
   color: #181818;
   font-weight: bold;
@@ -107,7 +106,7 @@ nav {
 .atext {
   position: relative;
   top: 23px;
-  left: 5px;
+  left: 4px;
   font-family: poppins;
   color: #ffffff;
   font-weight: bold;
@@ -181,5 +180,44 @@ input:checked + .slider:before {
     left: 93%;
     top: 24px;
     z-index: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .swipy {
+    position: absolute;
+    left: 87%;
+    top: 24px;
+    z-index: 2;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 23px;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(17px);
+  }
+
+  .project-center {
+    width: auto;
+    margin: auto;
+    max-width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 8px;
+    margin-right: 10px;
+  }
+
+  #full {
+    background-color: #6cdba3 !important;
   }
 }
