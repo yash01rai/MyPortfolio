@@ -38,9 +38,9 @@ export const links = [
   },
   {
     id: 4,
-    url: "https://react-myproject-4.netlify.app",
-    image: QandA,
-    title: "Accordion",
+    url: "https://react-myproject-15.netlify.app",
+    image: cocktail,
+    title: "Cocktail",
   },
   {
     id: 5,
@@ -80,9 +80,9 @@ export const links = [
   },
   {
     id: 11,
-    url: "https://react-myproject-15.netlify.app",
-    image: cocktail,
-    title: "Cocktail",
+    url: "https://react-myproject-4.netlify.app",
+    image: QandA,
+    title: "Accordion",
   },
   {
     id: 12,
