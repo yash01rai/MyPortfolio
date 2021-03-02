@@ -1,20 +1,20 @@
 import React from "react";
 
-import birthday from "./Images/birthday ss.png";
-import cocktail from "./Images/cocktail ss.png";
-import color from "./Images/color generator ss.png";
-import experience from "./Images/experience ss.png";
-import grocery from "./Images/grocery bud ss.png";
-import lorem from "./Images/lorem ipsum ss.png";
-import Navbar from "./Images/Navbar ss.png";
-import menu from "./Images/Our menu ss.png";
-import Our from "./Images/Our reviews.png";
-import QandA from "./Images/Q and A ss.png";
-import Reviews from "./Images/Reviews SS.png";
-import Slider from "./Images/Slider ss.png";
-import strip from "./Images/strip ss.png";
-import tour from "./Images/tours ss.png";
-import useRed from "./Images/useReducer ss.png";
+import birthday from "./Images/birthday ss.jpg";
+import cocktail from "./Images/cocktail ss.jpg";
+import color from "./Images/color generator ss.jpg";
+import experience from "./Images/experience ss.jpg";
+import grocery from "./Images/grocery bud ss.jpg";
+import lorem from "./Images/lorem ipsum ss.jpg";
+import Navbar from "./Images/Navbar ss.jpg";
+import menu from "./Images/Our menu ss.jpg";
+import Our from "./Images/Our reviews.jpg";
+import QandA from "./Images/Q and A ss.jpg";
+import Reviews from "./Images/Reviews SS.jpg";
+import Slider from "./Images/Slider ss.jpg";
+import strip from "./Images/strip ss.jpg";
+import tour from "./Images/tours ss.jpg";
+import useRed from "./Images/useReducer ss.jpg";
 
 import { FaLinkedin } from "react-icons/fa";
 export const links = [
