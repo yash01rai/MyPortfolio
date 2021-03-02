@@ -13,7 +13,7 @@ const Project = ({ image, url, title }) => {
             alt={title}
             style={{
               height: "200px",
-              width: "380px",
+              width: "340px",
               borderRadius: "5px",
               objectFit: "cover",
               opacity: "95%",
