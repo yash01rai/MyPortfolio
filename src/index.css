@@ -88,7 +88,7 @@ Navbar
     color: hsl(219deg 82% 43%);
     transition: all 0.3s linear;
     position: absolute;
-    left: 40%;
+    left: 45%;
     top: 20px;
     display: flex;
   }
@@ -99,7 +99,7 @@ Navbar
     color: #000;
     transition: all 0.3s linear;
     position: absolute;
-    left: 40%;
+    left: 45%;
     top: 20px;
   }
 
