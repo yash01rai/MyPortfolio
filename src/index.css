@@ -68,6 +68,10 @@ Navbar
   padding: 1rem;
 }
 
+.nav-toggle {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
@@ -106,6 +110,25 @@ Navbar
   .nav-header {
     position: relative;
     right: 20px;
+  }
+
+  .nav-toggle {
+    font-size: 1.5rem;
+    color: hsl(205, 78%, 60%);
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    display: flex;
+  }
+  .nav-toggle-rotate {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    color: hsl(205, 86%, 17%);
+    transform: rotate(90deg);
   }
 }
 
